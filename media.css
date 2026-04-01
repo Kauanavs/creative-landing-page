@@ -1,27 +1,52 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px){
-    section#login{
-        width: 90vw;
-        height: 300px;
+/* ===================== */
+/* 📱 TABLET */
+/* ===================== */
+@media (max-width: 900px){
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
     }
 
-    section#login > div#imagem{
-        float: left;
-        width: 30%;
-        height: 100%;
+    .imagem img{
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20px;
     }
 
-    section#login > div#formulario{
-        float: right;
-        width: 70%;
-
-    } 
+    button{
+        width: 100%;
+    }
 }
 
-@media screen and (min-width: 992px){
-    section#login{
-        width: 990px;
-        height: 330px;
+/* ===================== */
+/* 📱 CELULAR */
+/* ===================== */
+@media (max-width: 600px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    nav ul{
+        padding: 0;
+    }
+
+    li{
+        display: block;
+        margin: 10px 0;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 14px;
     }
 }
