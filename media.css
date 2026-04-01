@@ -5,12 +5,12 @@
 /* ===================== */
 @media (max-width: 900px){
 
-    .hero{
+    main{
         flex-direction: column;
         text-align: center;
     }
 
-    .imagem img{
+    img{
         width: 100%;
         max-width: 400px;
         margin-top: 20px;
