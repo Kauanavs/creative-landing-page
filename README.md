@@ -44,8 +44,7 @@ Criar uma landing page com foco em:
 
 ## 📸 Preview
 
-![Preview do projeto](./assets/preview.png)
-
+https://kauanavs.github.io/creative-landing-page/
 
 ---
 
